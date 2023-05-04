@@ -44,6 +44,17 @@ Once you have installed Conda, you can create a new environment for this course 
 ```bash
 conda env create -f environment.yml
 ```
+or 
+```bash 
+conda create --name ds4beginners --file requirements.txt
+```
+This will create a new environment called ds4beginners with the dependencies listed in the requirements.txt file installed.
+
+#### Activate environment
+Activate the environment by running the following command:
+```bash
+conda activate ds4beginners
+```
 
 To get started with this course, you can follow these steps:
 
