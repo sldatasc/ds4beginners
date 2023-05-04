@@ -73,7 +73,7 @@ conda activate ds4beginners
 ```bash
 jupyter notebook
 ```
-- Navigate to the "notebooks" directory and open the Jupyter Notebooks for each week to start learning!
+- Navigate to the "week_n" where n the the index of the sub-directory and open the Jupyter Notebooks for each week to start learning!
 
 # Community
 We encourage you to join our community forum [TBA], where you can ask questions, share your work, and interact with other learners.
