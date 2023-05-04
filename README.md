@@ -7,6 +7,19 @@ Please note that the course outline can be found on the course website <a href="
 # Getting Started
 To get started with this course, you will need to have Python and Jupyter Notebooks installed on your computer or your can use cloud-based notebboks like <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>. You can find instructions on how to install them bellow.
 
+To get started with this course, you can follow these steps:
+
+- Clone this repository to your local machine using the following command:
+```bash
+git clone https://github.com/sldatasc/ds4beginners.git
+```
+
+- Navigate to the root directory of the repository.
+
+```bash 
+cd ds4beginners
+```
+
 ## Installing Conda
 
 To follow along with this course, you will need to install Conda, which is an open-source package management system and environment management system that can help you install and manage dependencies for your data science projects. Conda is available for Windows, Mac OSX, and Linux.
@@ -56,24 +69,6 @@ Activate the environment by running the following command:
 conda activate ds4beginners
 ```
 
-To get started with this course, you can follow these steps:
-
-- Clone this repository to your local machine using the following command:
-```bash
-git clone https://github.com/sldatasc/ds4beginners.git
-```
-
-- Navigate to the root directory of the repository.
-
-```bash 
-cd ds4beginners
-```
-
-- Install the necessary dependencies by running the following command:
-
-```bash
-pip install -r requirements.txt
-```
 - Once you have installed the dependencies, you can open Jupyter Notebook by running the following command:
 ```bash
 jupyter notebook
