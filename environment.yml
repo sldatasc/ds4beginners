@@ -1,0 +1,13 @@
+name: ds4beginners
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - numpy
+  - scipy

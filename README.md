@@ -7,6 +7,44 @@ Please note that the course outline can be found on the course website <a href="
 # Getting Started
 To get started with this course, you will need to have Python and Jupyter Notebooks installed on your computer or your can use cloud-based notebboks like <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>. You can find instructions on how to install them bellow.
 
+## Installing Conda
+
+To follow along with this course, you will need to install Conda, which is an open-source package management system and environment management system that can help you install and manage dependencies for your data science projects. Conda is available for Windows, Mac OSX, and Linux.
+
+### Windows
+
+To install Conda on Windows, you can follow these steps:
+
+1. Download the Anaconda installer for Windows from the [Anaconda website](https://www.anaconda.com/download#download-section).
+2. Double-click the installer to launch it.
+3. Follow the instructions in the installer.
+
+### Mac OSX
+To install Conda on Mac OSX, you can follow these steps:
+
+1. Download the Anaconda installer for Mac OSX from the [Anaconda website](https://www.anaconda.com/products/individual#download-section).
+2. Double-click the installer to launch it.
+3. Follow the instructions in the installer.
+
+### Linux
+To install Conda on Linux, you can follow these steps:
+1. Download the Anaconda installer for Linux from the [Anaconda website](https://www.anaconda.com/products/individual#download-section).
+2. Open a terminal and navigate to the directory where you downloaded the installer.
+3. Run the following command to make the installer executable:
+
+``` bash 
+chmod +x Anaconda-latest-Linux-x86_64.sh
+```
+4. Run the installer with the following command:
+```bash
+./Anaconda-latest-Linux-x86_64.sh
+```
+5. Follow the instructions in the installer.
+Once you have installed Conda, you can create a new environment for this course by running the following command:
+```bash
+conda env create -f environment.yml
+```
+
 To get started with this course, you can follow these steps:
 
 - Clone this repository to your local machine using the following command:
@@ -14,6 +52,22 @@ To get started with this course, you can follow these steps:
 git clone https://github.com/sldatasc/ds4beginners.git
 ```
 
+- Navigate to the root directory of the repository.
+
+```bash 
+cd ds4beginners
+```
+
+- Install the necessary dependencies by running the following command:
+
+```bash
+pip install -r requirements.txt
+```
+- Once you have installed the dependencies, you can open Jupyter Notebook by running the following command:
+```bash
+jupyter notebook
+```
+- Navigate to the "notebooks" directory and open the Jupyter Notebooks for each week to start learning!
 
 # Community
 We encourage you to join our community forum [TBA], where you can ask questions, share your work, and interact with other learners.
