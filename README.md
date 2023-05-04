@@ -5,9 +5,15 @@ Welcome to the Data Science for Beginners course! This 5-week course is designed
 Please note that the course outline can be found on the course website <a href="https://sldatasc.github.io/" target="_blank">here</a>.
 
 # Getting Started
-To get started with this course, you will need to have Python and Jupyter Notebooks installed on your computer or your can use cloud-based notebboks like <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>. You can find instructions on how to install them in the "setup" directory of this repository.
+To get started with this course, you will need to have Python and Jupyter Notebooks installed on your computer or your can use cloud-based notebboks like <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>. You can find instructions on how to install them bellow.
 
-Once you have Python and Jupyter Notebooks installed, you can clone this repository and navigate to the "notebooks" directory to access the Jupyter Notebooks for each week.
+To get started with this course, you can follow these steps:
+
+- Clone this repository to your local machine using the following command:
+```bash
+git clone https://github.com/sldatasc/ds4beginners.git
+```
+
 
 # Community
 We encourage you to join our community forum [TBA], where you can ask questions, share your work, and interact with other learners.
